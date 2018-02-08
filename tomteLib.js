@@ -1,5 +1,7 @@
 console.log("***tomteLib loaded***");
 
+var test;
+
 function tomteManager() {
   this.draw = function() {
     for (w of windows) {
