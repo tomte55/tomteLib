@@ -205,20 +205,6 @@ p5.prototype.error = function(message) {
   console.error(message);
 }
 
-
-p5.prototype.tomteSlider = function(x, y, w) {
-  push();
-  strokeWeight(6);
-  stroke(0);
-  line(x-w, y, x+w, y);
-  pop();
-
-  push();
-  rectMode(CENTER);
-  rect(x, y, 25, 15);
-  pop();
-}
-
 buttons = [];
 
 p5.prototype.newButton = function(name) {
