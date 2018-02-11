@@ -351,6 +351,6 @@ p5.prototype.tomteFPS = function() {
   } else {
     fill(255, 50, 50);
   }
-  text("FPS: " + floor(frameRate()), 10, 20);
+  text(floor(frameRate()), 5, 15);
   pop();
 }
