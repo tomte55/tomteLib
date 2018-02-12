@@ -346,6 +346,7 @@ function Window(name) {
 p5.prototype.tomteFPS = function() {
   push();
   textSize(12);
+  textFont(true);
   if (frameRate() > 30) {
     fill(50, 255, 50);
   } else {
